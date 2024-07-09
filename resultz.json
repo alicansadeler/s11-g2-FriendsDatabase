@@ -1,0 +1,254 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 17,
+  "numPassedTests": 7,
+  "numFailedTests": 10,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1720526390291,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe AuthContext.jsx isimli Context Provider Componenti dosyası oluşturulmuş",
+          "status": "passed",
+          "title": "contexts klasöründe AuthContext.jsx isimli Context Provider Componenti dosyası oluşturulmuş",
+          "duration": 23,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " AuthContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "status": "passed",
+          "title": "AuthContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "duration": 4,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " AuthContext.jsx dosyasında AuthContext.Provider tanımlanmış",
+          "status": "passed",
+          "title": "AuthContext.jsx dosyasında AuthContext.Provider tanımlanmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe AuthContext Providera valuelar aktarılmış",
+          "status": "passed",
+          "title": "contexts klasöründe AuthContext Providera valuelar aktarılmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde oluşturulan provider kullanılmış",
+          "status": "failed",
+          "title": "App.jsxde oluşturulan provider kullanılmış",
+          "duration": 8,
+          "failureMessages": [
+            "expected 'importReactfrom\\'react\\';import\\'./in…' to include 'Provider>'"
+          ],
+          "location": {
+            "line": 83,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " components klasöründe PrivateRoute.jsx isimli protected route componenti oluşturulmuş",
+          "status": "passed",
+          "title": "components klasöründe PrivateRoute.jsx isimli protected route componenti oluşturulmuş",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " PrivateRoute.jsx dosyasında login sayfasına redirect kullanılmış",
+          "status": "passed",
+          "title": "PrivateRoute.jsx dosyasında login sayfasına redirect kullanılmış",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde oluşturulan protected route componenti kullanılmış",
+          "status": "failed",
+          "title": "App.jsxde oluşturulan protected route componenti kullanılmış",
+          "duration": 3,
+          "failureMessages": [
+            "expected 'importReactfrom\\'react\\';import\\'./in…' to include '<PrivateRoute'"
+          ],
+          "location": {
+            "line": 96,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " main.jsxde routing için uygulama BrowserRouter ile sarmalanmış",
+          "status": "failed",
+          "title": "main.jsxde routing için uygulama BrowserRouter ile sarmalanmış",
+          "duration": 3,
+          "failureMessages": [
+            "expected 'importReactfrom\\'react\\';importReactD…' to include 'BrowserRouter'"
+          ],
+          "location": {
+            "line": 100,
+            "column": 20
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde routelar eklenmiş",
+          "status": "failed",
+          "title": "App.jsxde routelar eklenmiş",
+          "duration": 3,
+          "failureMessages": [
+            "expected 'importReactfrom\\'react\\';import\\'./in…' to include '<Route'"
+          ],
+          "location": {
+            "line": 104,
+            "column": 19
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Sayfa yüklendiğinde, login sayfası çıkıyor. headerda sadece login butonu var",
+          "status": "failed",
+          "title": "Sayfa yüklendiğinde, login sayfası çıkıyor. headerda sadece login butonu var",
+          "duration": 11,
+          "failureMessages": [
+            "expected <button></button> to be null // Object.is equality"
+          ],
+          "location": {
+            "line": 109,
+            "column": 40
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Login formu submit edildiğinde login oluyor. Headerda FRIENDS LIST, ADD FRIEND butonu görünüyor.",
+          "status": "failed",
+          "title": "Login formu submit edildiğinde login oluyor. Headerda FRIENDS LIST, ADD FRIEND butonu görünüyor.",
+          "duration": 1006,
+          "failureMessages": [
+            "Unable to find an element with the placeholder text of: Username\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Login olunca headerda logout butonu görünüyor, login butonu kayboluyor",
+          "status": "failed",
+          "title": "Login olunca headerda logout butonu görünüyor, login butonu kayboluyor",
+          "duration": 4,
+          "failureMessages": [
+            "expected <h1></h1> to be null // Object.is equality"
+          ],
+          "location": {
+            "line": 124,
+            "column": 39
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Logout olunca login sayfası açılıyor",
+          "status": "failed",
+          "title": "Logout olunca login sayfası açılıyor",
+          "duration": 1010,
+          "failureMessages": [
+            "Unable to find an element with the text: SUBMIT. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " FRIENDS LIST sayfasında isimler doğru formatta -isim-email şeklinde görüntüleniyor",
+          "status": "failed",
+          "title": "FRIENDS LIST sayfasında isimler doğru formatta -isim-email şeklinde görüntüleniyor",
+          "duration": 1003,
+          "failureMessages": [
+            "Unable to find an element with the placeholder text of: Username\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Login bilgisi localStorageda s11d2 anahtarı ile tutuluyor",
+          "status": "failed",
+          "title": "Login bilgisi localStorageda s11d2 anahtarı ile tutuluyor",
+          "duration": 1069,
+          "failureMessages": [
+            "Unable to find an element with the placeholder text of: Username\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<h1>\u001b[39m\n              \u001b[0mFRIENDS DATABASE\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormHeaderButtonDiv\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mFRIENDS LIST\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mADD FRIEND\u001b[0m\n            \u001b[36m</button>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mLOGOUT\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"loginFormMainDiv\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h1>\u001b[39m\n            \u001b[0mLOGIN\u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mTODO: Form buraya gelecek\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Login bilgisi logout olunca localStoragedan siliniyor",
+          "status": "passed",
+          "title": "Login bilgisi logout olunca localStoragedan siliniyor",
+          "duration": 37,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1720526406948,
+      "endTime": 1720526411143,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-ffzfzy/src/__tests__/index.test.jsx"
+    }
+  ]
+}
